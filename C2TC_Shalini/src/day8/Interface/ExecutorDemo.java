@@ -1,0 +1,13 @@
+package day8.Interface;
+
+public class ExecutorDemo {
+	public static void main(String[] args) {
+		Coder c1; //reference
+		c1=new Student(); //obj
+		c1.rules();
+		//Trainer Object
+		c1=new Trainer ();
+		c1.rules();
+	}
+
+}
