@@ -4,7 +4,7 @@ public class executer {
 	public static void main(String[] args) {
 		
 		//accessing same package class
-			Base b1=new Base();
+			base b1=new base();
 			b1.methodDefault();
 			b1.methodProtected();
 			b1.methodPublic();

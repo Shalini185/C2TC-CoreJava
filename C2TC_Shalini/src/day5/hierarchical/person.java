@@ -4,13 +4,13 @@ public class person {
 	private String name;
 	private String city;
 
-	public Person() {
+	public person() {
 		System.out.println("Person class default constructor");
 		name="Amit";
 		city="Pune";
 	}
 
-	public Person(String name, String city) {
+	public person(String name, String city) {
 		this.name = name;
 		this.city = city;
 	}

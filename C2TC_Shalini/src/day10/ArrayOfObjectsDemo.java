@@ -2,6 +2,7 @@ package day10;
 
 public class ArrayOfObjectsDemo {
 	public static void main(String[] args) {
+		
 		// declares an Array of integers.
 		Student[] arr;
 		// allocating memory for 5 objects of type Student.
@@ -19,5 +20,4 @@ public class ArrayOfObjectsDemo {
 		for (int i = 0; i < arr.length; i++)
 			System.out.println("Element at " + i + " : " + arr[i].getRollNo()+ " " + arr[i].getName());
 	}
-
 }

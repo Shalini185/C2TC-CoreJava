@@ -31,7 +31,7 @@ public class Student extends person{
 		/*
 		 * super.name=name; super.city=city;
 		 */
-		super(name,city);
+		//super(name,city);
 		this.clas = clas;
 		this.per = per;
 	}

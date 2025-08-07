@@ -5,8 +5,7 @@ public class ExecutorDemo {
 		Coder c1; //reference
 		c1=new Student(); //obj
 		c1.rules();
-		//Trainer Object
-		c1=new Trainer ();
+		c1=new Trainer ();//obj
 		c1.rules();
 	}
 
